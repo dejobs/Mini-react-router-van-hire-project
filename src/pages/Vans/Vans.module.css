@@ -1,0 +1,98 @@
+.van-list-container {
+    display: flex;
+    max-width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.van-list-container {
+    font-size: 2rem;
+}
+
+.van-list {
+    width:85%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 20%;
+    row-gap: 50px;
+    margin-top: 30px;
+   
+    
+}
+
+.van-tile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.van-tile a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration: none; 
+}
+
+.van-tile img {
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.van-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.van-info h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 5px 5px 5px 0;
+    margin-bottom: 5px;
+} 
+
+.van-info p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 0;
+}
+
+.van-type {
+    width: 150px ;
+    height: 30px;
+    border: 1px solid transparent;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+i {
+    font-size: 1.25rem;
+}
+
+/******* Botton ******/
+
+.simple {
+    background-color: chocolate;
+}
+
+.rugged {
+    background-color: darkgreen;
+}
+
+.luxury {
+    background-color: aqua;
+}

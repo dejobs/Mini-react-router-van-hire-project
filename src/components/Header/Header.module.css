@@ -1,0 +1,39 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-height: 100px;
+   
+   
+   }
+
+.main-nav h3  {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-left: 20px;
+    color: #000;
+   }
+
+   .main-nav a {
+    text-decoration: none;
+   }
+
+.link {
+    display: flex;
+    flex-direction: row;
+}
+
+.link a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    padding: 5px;
+    color: #000;
+    
+    
+}
+

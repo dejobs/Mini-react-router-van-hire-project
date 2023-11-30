@@ -1,0 +1,110 @@
+.navBack {
+    font-size: 1rem;
+    padding: 5px 5px 5px 0;
+    align-items: baseline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.van-detail-container {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+
+.van-detail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+
+}
+
+.van-detail img {
+    
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.van-type {
+    width: 100px;
+    padding: 5px;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(232, 94, 13);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.van-detail h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.van-price span {
+font-weight: 700;
+font-size: 1.5rem;
+}
+
+.van-detail {
+    font-size: 1.5rem;
+}
+
+.link-button {
+    background-color:  rgb(232, 94, 13) ;
+    width: 100%;
+    color: #fff;
+    height: 40px;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 50px;
+    
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer p {
+    font-size: 1rem;
+    padding: 5px;
+    color:#fff;
+    text-align: center;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+
+
+

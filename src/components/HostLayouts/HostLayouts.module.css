@@ -1,0 +1,22 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-bar a {
+    margin-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px solid #000;
+}
