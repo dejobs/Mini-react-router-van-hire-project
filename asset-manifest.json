@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mini-react-router-van-hire-project/static/css/main.0f34750c.css",
+    "main.js": "/Mini-react-router-van-hire-project/static/js/main.e33c4c61.js",
+    "static/js/787.50c19cae.chunk.js": "/Mini-react-router-van-hire-project/static/js/787.50c19cae.chunk.js",
+    "index.html": "/Mini-react-router-van-hire-project/index.html",
+    "main.0f34750c.css.map": "/Mini-react-router-van-hire-project/static/css/main.0f34750c.css.map",
+    "main.e33c4c61.js.map": "/Mini-react-router-van-hire-project/static/js/main.e33c4c61.js.map",
+    "787.50c19cae.chunk.js.map": "/Mini-react-router-van-hire-project/static/js/787.50c19cae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f34750c.css",
+    "static/js/main.e33c4c61.js"
+  ]
+}
