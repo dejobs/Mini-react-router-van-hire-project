@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(232, 223, 211);
+}
+
+section {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.host-van-link-wrapper {
+    text-decoration: none;
+}
+
+.host-vans-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.host-vans-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.host-van-single {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #fff;
+    margin: 20px 10px 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.host-van-single img {
+    width: 200px;
+    height: 230px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.host-van-info {
+    padding: 10px;
+    align-self: center;
+}
+
+.host-van-info h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 5px;
+    color: #000;
+}
+
+.host-van-info p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+}

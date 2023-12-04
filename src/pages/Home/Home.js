@@ -18,9 +18,6 @@ const Home = () => {
                     <p>Find your van</p>
                 </div>
             </main>
-            <footer className={classes["footer"]}>
-                <p>©2022 #VANLIFE</p>
-            </footer>
             
         </Fragment>
         

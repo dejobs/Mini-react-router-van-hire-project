@@ -14,9 +14,17 @@
     color: #000;
     font-weight: 500;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
+   /* border-bottom: 1px solid transparent;*/
 }
 
-.nav-bar a:hover {
+/*.nav-bar a:hover {
     border-bottom: 1px solid #000;
+}*/
+
+.activeStyle {
+    font-weight: "bold";
+    text-decoration: "underline";
+    color: "green";
 }
+
+
