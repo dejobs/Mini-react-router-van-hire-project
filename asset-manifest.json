@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mini-react-router-van-hire-project/static/css/main.0f34750c.css",
-    "main.js": "/Mini-react-router-van-hire-project/static/js/main.e33c4c61.js",
+    "main.css": "/Mini-react-router-van-hire-project/static/css/main.ecceac68.css",
+    "main.js": "/Mini-react-router-van-hire-project/static/js/main.3d389075.js",
     "static/js/787.50c19cae.chunk.js": "/Mini-react-router-van-hire-project/static/js/787.50c19cae.chunk.js",
     "index.html": "/Mini-react-router-van-hire-project/index.html",
-    "main.0f34750c.css.map": "/Mini-react-router-van-hire-project/static/css/main.0f34750c.css.map",
-    "main.e33c4c61.js.map": "/Mini-react-router-van-hire-project/static/js/main.e33c4c61.js.map",
+    "main.ecceac68.css.map": "/Mini-react-router-van-hire-project/static/css/main.ecceac68.css.map",
+    "main.3d389075.js.map": "/Mini-react-router-van-hire-project/static/js/main.3d389075.js.map",
     "787.50c19cae.chunk.js.map": "/Mini-react-router-van-hire-project/static/js/787.50c19cae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f34750c.css",
-    "static/js/main.e33c4c61.js"
+    "static/css/main.ecceac68.css",
+    "static/js/main.3d389075.js"
   ]
 }
