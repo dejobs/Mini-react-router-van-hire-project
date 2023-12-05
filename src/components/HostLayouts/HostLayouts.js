@@ -10,23 +10,23 @@ const HostLayouts = () => {
     return (
         <>
             <nav className="nav-bar">
-                <NavLink to="/host"
+                <NavLink to="."
                     end
                     style={({ isActive }) => isActive ? activeStyle : null}
                 >
                     Dashboard
                 </NavLink>
-                <NavLink to="/host/income"
+                <NavLink to="income"
                     style={({ isActive }) => isActive ? activeStyle : null}
                 >
                     Income
                 </NavLink>
-                <NavLink to="/host/vans"
+                <NavLink to="vans"
                     style={({ isActive }) => isActive ? activeStyle : null}
                 >
                     Vans
                 </NavLink>
-                <NavLink to="/host/reviews"
+                <NavLink to="reviews"
                     style={({ isActive }) => isActive ? activeStyle : null}
                 >
                     Reviews
