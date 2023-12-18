@@ -1,0 +1,115 @@
+/****** Setup ********/
+/*h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}*/
+
+/**********  Back Botton *********/
+.back-button {
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 1.25rem;
+    align-items: baseline;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/**********  Main *********/
+
+
+.host-van-detail-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.host-van-detail {
+display: flex;
+flex-direction: row;
+}
+
+.host-van-detail img {
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 40px;
+}
+
+.host-van-detail-info-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.host-van-detail-info-text .van-type {
+   width: 100px;
+    /*height: 20px;*/
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+i.van-type-rugged {
+    background: green ;
+}
+i.van-type-luxury {
+    background: orange;
+}
+
+i.van-type-simple {
+    background: orchid;
+}
+
+.host-van-detail-info-text h3,
+.host-van-detail-info-text h4  {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.host-van-detail-info-text h4 span {
+    font-weight: 200;
+}
+
+
+
+.host-van-detail-section nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.host-van-detail-section nav a {
+    margin-right: 30px;
+    padding: 5px 5px 5px 0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #000;
+}

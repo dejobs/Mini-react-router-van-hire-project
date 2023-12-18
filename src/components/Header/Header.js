@@ -1,5 +1,7 @@
 import classes from "./Header.module.css"
 import { Link, NavLink } from "react-router-dom";
+import {IdentificationBadge} from "phosphor-react"
+import imgIcon from "../../Assets/avatar-icon.png"
 
 const Header = () => {
 
@@ -8,6 +10,10 @@ const Header = () => {
         fontWeight: "bold",
         textDecoration: "underline",
         color: "#161616"
+    }
+
+    const fakeLogout = () => {
+        localStorage.removeItem("loggedin")
     }
 
     return (
@@ -32,6 +38,13 @@ const Header = () => {
                 >
                     Home
                 </NavLink>
+                <NavLink
+                    to="/login"
+                    style={({ isActive }) => isActive ? activeStyle : null}
+                >
+                    <img src={imgIcon} />
+                </NavLink>
+                <button onClick={fakeLogout}>x</button>
             </div>
         </header>
     );

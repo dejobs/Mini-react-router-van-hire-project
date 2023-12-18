@@ -1,0 +1,22 @@
+ section {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.host-van-detailed-info h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left: 0;
+    font-weight: 700;
+    word-spacing: 5px;
+    text-align: justify;
+    line-height: 30px;
+    
+}
+
+.host-van-detailed-info h4 span {
+    font-weight: 400;
+}

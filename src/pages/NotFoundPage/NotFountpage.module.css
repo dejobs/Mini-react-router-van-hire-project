@@ -1,0 +1,31 @@
+
+.page-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+}
+
+.page-wrapper h2 {
+    font-size: 2rem;
+}
+
+.page-wrapper a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000000;
+    text-align:center;
+    align-self: auto;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

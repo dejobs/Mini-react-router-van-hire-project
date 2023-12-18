@@ -1,14 +1,15 @@
 import { useOutletContext } from "react-router-dom";
+import "./HostVanInfo.css"
 
 const HostVanInfo = () => {
     const { currentVan } = useOutletContext()
 
     return (
-        <section>
-            <h4>{currentVan.name}</h4>
-            <h4>{currentVan.type}</h4>
-            <h4>{currentVan.description}</h4>
-            <h4>Visibility: Public</h4>
+        <section className="host-van-detailed-info">
+            <h4>Name: <span>{currentVan.name}</span></h4>
+            <h4>Category: <span>{currentVan.type}</span></h4>
+            <h4>Description: <span>{currentVan.description}</span></h4>
+            <h4>Visibility: <span>Public</span></h4>
         </section>
     );
 }

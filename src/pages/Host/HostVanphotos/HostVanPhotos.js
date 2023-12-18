@@ -1,4 +1,5 @@
 import { useOutletContext } from "react-router-dom";
+import "./HostVanPhotos.css"
 
 const HostVanPhotos = () => {
     const {currentVan} = useOutletContext()
