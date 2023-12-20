@@ -1,5 +1,5 @@
 import classes from "./Vans.module.css";
-import { Link, useSearchParams, useLoaderData } from "react-router-dom";
+import { Link, useSearchParams, useLoaderData, defer } from "react-router-dom";
 import { useState } from "react";
 import { getVans } from "../../Api";
 

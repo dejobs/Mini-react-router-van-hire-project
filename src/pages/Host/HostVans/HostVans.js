@@ -3,8 +3,8 @@ import "./HostVans.css";
 import { getHostVans } from "../../../Api";
 import { requireAuth } from "../../../utilis";
 
-export async function loader() {
-  await requireAuth()
+export async function loader({request}) {
+  await requireAuth(request)
   return getHostVans();
 }
 
@@ -18,7 +18,7 @@ const HostVans = () => {
       className="host-van-link-wrapper"
     >
       <div className="host-van-single" key={van.id}>
-        <img src={van.imageUrl} alt={`photo of ${van.name}`} />
+        <img src={van.imageUrl} alt={`photo-Sof-${van.name}`} />
         <div className="host-van-info">
           <h3>{van.name}</h3>
           <p>${van.price}</p>

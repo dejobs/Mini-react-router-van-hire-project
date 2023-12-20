@@ -1,20 +1,15 @@
-import { useState, useEffect } from "react";
-import {
-  useParams,
-  NavLink,
-  Outlet,
-  Link,
-  useLoaderData,
-} from "react-router-dom";
+import { NavLink, Outlet, Link, useLoaderData } from "react-router-dom";
 import "./HostVansDetail.css";
 import { getHostVans } from "../../../Api";
+import { requireAuth } from "../../../utilis";
 
-export function loader({ params }) {
+export async function loader({ params, request }) {
+  await requireAuth(request);
   return getHostVans(params.id);
 }
 
 export default function HostVanDetail() {
-  const { id } = useParams();
+  //const { id } = useParams();
 
   const currentVan = useLoaderData();
 
